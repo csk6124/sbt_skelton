@@ -103,6 +103,7 @@ lazy val foo = Project(id = "hello-foo",
 
 
 ```
+
 import sbt._
 import Keys._
 
@@ -121,6 +122,7 @@ object MyBuild extends Build {
 object - scala singleton class 
 lazy val - 변수정의는 처음 사용될때 처리된다.
 디렉토리 모듈명시하는 방법 : project.in(file(“...”)) 이와 같이 작성한다. 
+
 ```
 
 
