@@ -1,4 +1,4 @@
-# What is the SBT?
+# 1. What is the SBT?
 Deploy, Dependency, generate document, run Test ... 등등을 처리한다. 
 
 ### 빌드툴 비교
@@ -22,7 +22,7 @@ Ivy를 이용한 Dependencies 처리 가능, test속도가 빠름, 큰프로젝�
 Maven에 비해서 빌드 스크립트 코딩이 간단함. 
 스칼라 언어로 빌드가능함.
 
-# SBT Requirements Install
+# 2. SBT Requirements Install
 
 ```
 1. JVM 1.5 over
@@ -30,7 +30,7 @@ Maven에 비해서 빌드 스크립트 코딩이 간단함.
 3. brew install sbt
 ```
 
-# Sbt기반 프로젝트 만들자.
+# 3. Sbt기반 프로젝트 만들자.
 
 ```
 lib/
@@ -70,10 +70,11 @@ project/
 
 위의 구성으로 만듬.
 
-# Managed Dependencies
+# 4. Managed Dependencies
 libraryDependencies += groupID % artifactID % revision
 
-# 멀티 프로젝트 작성
+
+# 5. 멀티 프로젝트 작성
 공식 문서 : http://www.scala-sbt.org/release/tutorial/Multi-Project.html
 
 * Sharing settings
@@ -90,15 +91,28 @@ calaVersion in ThisBuild := "2.10.0"
 
 ```
 aggregate in update := false
+
 ```
 
+* Project dependencies 
+멀티 프로젝트에서 aggregate를 통해서 편리하게 세팅이 가능하다. 
+몇몇 프로젝트가 다른 프로젝트 코드의 depends on한다면 dependOn을 사용한다. 
+
+```
+
+lazy val core = project.settings(….).dependOn(util)
+
+```
 
 * Classpath dependencies
 dependsOn 메소드 call을  통해서 dependency를 처리한다. 
 아래와 같이 hello-foo프로젝트는 hello-bar프로젝트를 필요로 한다는것을 명시함.
+
 ```
+
 lazy val foo = Project(id = "hello-foo",
                        base = file("foo")) dependsOn(bar)
+
 ```
 
 
@@ -126,7 +140,7 @@ lazy val - 변수정의는 처음 사용될때 처리된다.
 ```
 
 
-# SBT Settings
+# 6. SBT Settings
 SBT 세팅 프로젝트는 3개의 파트로 이루어졌다.
 
 * scope
@@ -135,34 +149,27 @@ SBT 세팅 프로젝트는 3개의 파트로 이루어졌다.
 
 SettingKey[T] trait 를 통해서 API를 제공해주고 있음.
 
-# SBT Scope
+# 7. SBT Scope
 scope axes에는 3가지가 있다.
 
 * Projects
 * Configurations
 * Tasks
 
-# SBT Keys
+# 8. SBT Keys
 scope안에 세팅값으로 저장되는 값이다. AttributeKey[T]
 
 
 
-* Project dependencies 
-멀티 프로젝트에서 aggregate를 통해서 편리하게 세팅이 가능하다. 
-몇몇 프로젝트가 다른 프로젝트 코드의 depends on한다면 dependOn을 사용한다. 
-lazy val core = project.settings(….).dependOn(util)
+# 9. Plugin 설정 및 사용
 
-lazy val 을 사용한다. 
-```
-
-# Plugin 설정 및 사용
 * Sbt-assembly
 * Sbt-pack
 * Sbt-dependency-graph
 
 
-# PredictionIO를 이용한 설정한 사례 설명
+# 10. PredictionIO를 이용한 설정한 사례 설명
 
-# 테스트 
+# 11. 실전 테스트 
 
 
