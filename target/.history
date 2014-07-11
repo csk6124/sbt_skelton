@@ -1,0 +1,10 @@
+project core
+test
+show version
+project root
+package
+publishLocal
+tasks
+publishLocal
+EXIT
+exit

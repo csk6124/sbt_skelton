@@ -1,0 +1,332 @@
+[0m[[0minfo[0m] [0mUpdating {file:/Users/june/Documents/scala/sbt_skelton/}core...[0m
+[0m[[0mdebug[0m] [0m:: resolving dependencies :: core#core_2.10;0.1-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool][0m
+[0m[[0mdebug[0m] [0m	validate = true[0m
+[0m[[0mdebug[0m] [0m	refresh = false[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for core#core_2.10;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies core#core_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.3 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@59d0f807[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.3[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-library;2.10.3[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.10.3 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m	[2.10.3] org.scala-lang#scala-library;2.10.3[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies core#core_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies core#core_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies core#core_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies core#core_2.10;0.1-SNAPSHOT->org.fluentd#fluent-logger;0.2.10 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.fluentd#fluent-logger;0.2.10 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.fluentd#fluent-logger;0.2.10 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.fluentd#fluent-logger;0.2.10[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.fluentd#fluent-logger;0.2.10[0m
+[0m[[0mdebug[0m] [0m	found org.fluentd#fluent-logger;0.2.10 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies core#core_2.10;0.1-SNAPSHOT->org.fluentd#fluent-logger;0.2.10 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies core#core_2.10;0.1-SNAPSHOT->org.fluentd#fluent-logger;0.2.10 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fluentd#fluent-logger;0.2.10->org.msgpack#msgpack;0.6.7 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.msgpack#msgpack;0.6.7 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.msgpack#msgpack;0.6.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.msgpack#msgpack;0.6.7[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.msgpack#msgpack;0.6.7[0m
+[0m[[0mdebug[0m] [0m	found org.msgpack#msgpack;0.6.7 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fluentd#fluent-logger;0.2.10->org.msgpack#msgpack;0.6.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.msgpack#msgpack;0.6.7->com.googlecode.json-simple#json-simple;1.1.1 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving com.googlecode.json-simple#json-simple;1.1.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.googlecode.json-simple#json-simple;1.1.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.googlecode.json-simple#json-simple;1.1.1[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.googlecode.json-simple#json-simple;1.1.1[0m
+[0m[[0mdebug[0m] [0m	found com.googlecode.json-simple#json-simple;1.1.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.msgpack#msgpack;0.6.7->com.googlecode.json-simple#json-simple;1.1.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.googlecode.json-simple#json-simple;1.1.1->junit#junit;4.10 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving junit#junit;4.10 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: junit#junit;4.10 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: junit#junit;4.10[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: junit#junit;4.10[0m
+[0m[[0mdebug[0m] [0m	found junit#junit;4.10 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.googlecode.json-simple#json-simple;1.1.1->junit#junit;4.10 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies junit#junit;4.10->org.hamcrest#hamcrest-core;1.1 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.hamcrest#hamcrest-core;1.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.hamcrest#hamcrest-core;1.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.hamcrest#hamcrest-core;1.1[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.hamcrest#hamcrest-core;1.1[0m
+[0m[[0mdebug[0m] [0m	found org.hamcrest#hamcrest-core;1.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies junit#junit;4.10->org.hamcrest#hamcrest-core;1.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.msgpack#msgpack;0.6.7->org.javassist#javassist;3.16.1-GA [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.javassist#javassist;3.16.1-GA ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.javassist#javassist;3.16.1-GA {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.javassist#javassist;3.16.1-GA[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.javassist#javassist;3.16.1-GA[0m
+[0m[[0mdebug[0m] [0m	found org.javassist#javassist;3.16.1-GA in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.msgpack#msgpack;0.6.7->org.javassist#javassist;3.16.1-GA [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fluentd#fluent-logger;0.2.10->org.msgpack#msgpack;0.6.7 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fluentd#fluent-logger;0.2.10->org.msgpack#msgpack;0.6.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.msgpack#msgpack;0.6.7->com.googlecode.json-simple#json-simple;1.1.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.msgpack#msgpack;0.6.7->com.googlecode.json-simple#json-simple;1.1.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.googlecode.json-simple#json-simple;1.1.1->junit#junit;4.10 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.googlecode.json-simple#json-simple;1.1.1->junit#junit;4.10 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies junit#junit;4.10->org.hamcrest#hamcrest-core;1.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies junit#junit;4.10->org.hamcrest#hamcrest-core;1.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.msgpack#msgpack;0.6.7->org.javassist#javassist;3.16.1-GA [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.msgpack#msgpack;0.6.7->org.javassist#javassist;3.16.1-GA [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fluentd#fluent-logger;0.2.10->org.msgpack#msgpack;0.6.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fluentd#fluent-logger;0.2.10->org.msgpack#msgpack;0.6.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies core#core_2.10;0.1-SNAPSHOT->org.fluentd#fluent-logger;0.2.10 [compile->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for core#core_2.10;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for core#core_2.10;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies core#core_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies core#core_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies core#core_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies core#core_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies core#core_2.10;0.1-SNAPSHOT->org.fluentd#fluent-logger;0.2.10 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies core#core_2.10;0.1-SNAPSHOT->org.fluentd#fluent-logger;0.2.10 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies core#core_2.10;0.1-SNAPSHOT->org.fluentd#fluent-logger;0.2.10 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fluentd#fluent-logger;0.2.10->org.msgpack#msgpack;0.6.7 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fluentd#fluent-logger;0.2.10->org.msgpack#msgpack;0.6.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.msgpack#msgpack;0.6.7->com.googlecode.json-simple#json-simple;1.1.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.msgpack#msgpack;0.6.7->com.googlecode.json-simple#json-simple;1.1.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.googlecode.json-simple#json-simple;1.1.1->junit#junit;4.10 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.googlecode.json-simple#json-simple;1.1.1->junit#junit;4.10 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies junit#junit;4.10->org.hamcrest#hamcrest-core;1.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies junit#junit;4.10->org.hamcrest#hamcrest-core;1.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.msgpack#msgpack;0.6.7->org.javassist#javassist;3.16.1-GA [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.msgpack#msgpack;0.6.7->org.javassist#javassist;3.16.1-GA [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fluentd#fluent-logger;0.2.10->org.msgpack#msgpack;0.6.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fluentd#fluent-logger;0.2.10->org.msgpack#msgpack;0.6.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.msgpack#msgpack;0.6.7->com.googlecode.json-simple#json-simple;1.1.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.msgpack#msgpack;0.6.7->com.googlecode.json-simple#json-simple;1.1.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.googlecode.json-simple#json-simple;1.1.1->junit#junit;4.10 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.googlecode.json-simple#json-simple;1.1.1->junit#junit;4.10 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies junit#junit;4.10->org.hamcrest#hamcrest-core;1.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies junit#junit;4.10->org.hamcrest#hamcrest-core;1.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.msgpack#msgpack;0.6.7->org.javassist#javassist;3.16.1-GA [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.msgpack#msgpack;0.6.7->org.javassist#javassist;3.16.1-GA [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies core#core_2.10;0.1-SNAPSHOT->org.fluentd#fluent-logger;0.2.10 [compile->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for core#core_2.10;0.1-SNAPSHOT [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for core#core_2.10;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for core#core_2.10;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies core#core_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies core#core_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies core#core_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies core#core_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies core#core_2.10;0.1-SNAPSHOT->org.fluentd#fluent-logger;0.2.10 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies core#core_2.10;0.1-SNAPSHOT->org.fluentd#fluent-logger;0.2.10 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies core#core_2.10;0.1-SNAPSHOT->org.fluentd#fluent-logger;0.2.10 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fluentd#fluent-logger;0.2.10->org.msgpack#msgpack;0.6.7 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fluentd#fluent-logger;0.2.10->org.msgpack#msgpack;0.6.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.msgpack#msgpack;0.6.7->com.googlecode.json-simple#json-simple;1.1.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.msgpack#msgpack;0.6.7->com.googlecode.json-simple#json-simple;1.1.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.googlecode.json-simple#json-simple;1.1.1->junit#junit;4.10 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.googlecode.json-simple#json-simple;1.1.1->junit#junit;4.10 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies junit#junit;4.10->org.hamcrest#hamcrest-core;1.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies junit#junit;4.10->org.hamcrest#hamcrest-core;1.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.msgpack#msgpack;0.6.7->org.javassist#javassist;3.16.1-GA [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.msgpack#msgpack;0.6.7->org.javassist#javassist;3.16.1-GA [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fluentd#fluent-logger;0.2.10->org.msgpack#msgpack;0.6.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fluentd#fluent-logger;0.2.10->org.msgpack#msgpack;0.6.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.msgpack#msgpack;0.6.7->com.googlecode.json-simple#json-simple;1.1.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.msgpack#msgpack;0.6.7->com.googlecode.json-simple#json-simple;1.1.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.googlecode.json-simple#json-simple;1.1.1->junit#junit;4.10 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.googlecode.json-simple#json-simple;1.1.1->junit#junit;4.10 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies junit#junit;4.10->org.hamcrest#hamcrest-core;1.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies junit#junit;4.10->org.hamcrest#hamcrest-core;1.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.msgpack#msgpack;0.6.7->org.javassist#javassist;3.16.1-GA [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.msgpack#msgpack;0.6.7->org.javassist#javassist;3.16.1-GA [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies core#core_2.10;0.1-SNAPSHOT->org.fluentd#fluent-logger;0.2.10 [compile->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'provided'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for core#core_2.10;0.1-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'optional'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for core#core_2.10;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for core#core_2.10;0.1-SNAPSHOT [compile-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for core#core_2.10;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies core#core_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies core#core_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies core#core_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies core#core_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies core#core_2.10;0.1-SNAPSHOT->org.fluentd#fluent-logger;0.2.10 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies core#core_2.10;0.1-SNAPSHOT->org.fluentd#fluent-logger;0.2.10 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies core#core_2.10;0.1-SNAPSHOT->org.fluentd#fluent-logger;0.2.10 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fluentd#fluent-logger;0.2.10->org.msgpack#msgpack;0.6.7 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fluentd#fluent-logger;0.2.10->org.msgpack#msgpack;0.6.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.msgpack#msgpack;0.6.7->com.googlecode.json-simple#json-simple;1.1.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.msgpack#msgpack;0.6.7->com.googlecode.json-simple#json-simple;1.1.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.googlecode.json-simple#json-simple;1.1.1->junit#junit;4.10 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.googlecode.json-simple#json-simple;1.1.1->junit#junit;4.10 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies junit#junit;4.10->org.hamcrest#hamcrest-core;1.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies junit#junit;4.10->org.hamcrest#hamcrest-core;1.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.msgpack#msgpack;0.6.7->org.javassist#javassist;3.16.1-GA [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.msgpack#msgpack;0.6.7->org.javassist#javassist;3.16.1-GA [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fluentd#fluent-logger;0.2.10->org.msgpack#msgpack;0.6.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fluentd#fluent-logger;0.2.10->org.msgpack#msgpack;0.6.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.msgpack#msgpack;0.6.7->com.googlecode.json-simple#json-simple;1.1.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.msgpack#msgpack;0.6.7->com.googlecode.json-simple#json-simple;1.1.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.googlecode.json-simple#json-simple;1.1.1->junit#junit;4.10 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.googlecode.json-simple#json-simple;1.1.1->junit#junit;4.10 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies junit#junit;4.10->org.hamcrest#hamcrest-core;1.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies junit#junit;4.10->org.hamcrest#hamcrest-core;1.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.msgpack#msgpack;0.6.7->org.javassist#javassist;3.16.1-GA [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.msgpack#msgpack;0.6.7->org.javassist#javassist;3.16.1-GA [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies core#core_2.10;0.1-SNAPSHOT->org.fluentd#fluent-logger;0.2.10 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for core#core_2.10;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for core#core_2.10;0.1-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for core#core_2.10;0.1-SNAPSHOT [runtime-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for core#core_2.10;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for core#core_2.10;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies core#core_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies core#core_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies core#core_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies core#core_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies core#core_2.10;0.1-SNAPSHOT->org.fluentd#fluent-logger;0.2.10 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies core#core_2.10;0.1-SNAPSHOT->org.fluentd#fluent-logger;0.2.10 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies core#core_2.10;0.1-SNAPSHOT->org.fluentd#fluent-logger;0.2.10 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fluentd#fluent-logger;0.2.10->org.msgpack#msgpack;0.6.7 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fluentd#fluent-logger;0.2.10->org.msgpack#msgpack;0.6.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.msgpack#msgpack;0.6.7->com.googlecode.json-simple#json-simple;1.1.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.msgpack#msgpack;0.6.7->com.googlecode.json-simple#json-simple;1.1.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.googlecode.json-simple#json-simple;1.1.1->junit#junit;4.10 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.googlecode.json-simple#json-simple;1.1.1->junit#junit;4.10 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies junit#junit;4.10->org.hamcrest#hamcrest-core;1.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies junit#junit;4.10->org.hamcrest#hamcrest-core;1.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.msgpack#msgpack;0.6.7->org.javassist#javassist;3.16.1-GA [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.msgpack#msgpack;0.6.7->org.javassist#javassist;3.16.1-GA [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fluentd#fluent-logger;0.2.10->org.msgpack#msgpack;0.6.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fluentd#fluent-logger;0.2.10->org.msgpack#msgpack;0.6.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.msgpack#msgpack;0.6.7->com.googlecode.json-simple#json-simple;1.1.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.msgpack#msgpack;0.6.7->com.googlecode.json-simple#json-simple;1.1.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.googlecode.json-simple#json-simple;1.1.1->junit#junit;4.10 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.googlecode.json-simple#json-simple;1.1.1->junit#junit;4.10 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies junit#junit;4.10->org.hamcrest#hamcrest-core;1.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies junit#junit;4.10->org.hamcrest#hamcrest-core;1.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.msgpack#msgpack;0.6.7->org.javassist#javassist;3.16.1-GA [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.msgpack#msgpack;0.6.7->org.javassist#javassist;3.16.1-GA [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies core#core_2.10;0.1-SNAPSHOT->org.fluentd#fluent-logger;0.2.10 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for core#core_2.10;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for core#core_2.10;0.1-SNAPSHOT [test-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for core#core_2.10;0.1-SNAPSHOT [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for core#core_2.10;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for core#core_2.10;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies core#core_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies core#core_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies core#core_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies core#core_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies core#core_2.10;0.1-SNAPSHOT->org.fluentd#fluent-logger;0.2.10 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies core#core_2.10;0.1-SNAPSHOT->org.fluentd#fluent-logger;0.2.10 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies core#core_2.10;0.1-SNAPSHOT->org.fluentd#fluent-logger;0.2.10 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fluentd#fluent-logger;0.2.10->org.msgpack#msgpack;0.6.7 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fluentd#fluent-logger;0.2.10->org.msgpack#msgpack;0.6.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.msgpack#msgpack;0.6.7->com.googlecode.json-simple#json-simple;1.1.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.msgpack#msgpack;0.6.7->com.googlecode.json-simple#json-simple;1.1.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.googlecode.json-simple#json-simple;1.1.1->junit#junit;4.10 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.googlecode.json-simple#json-simple;1.1.1->junit#junit;4.10 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies junit#junit;4.10->org.hamcrest#hamcrest-core;1.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies junit#junit;4.10->org.hamcrest#hamcrest-core;1.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.msgpack#msgpack;0.6.7->org.javassist#javassist;3.16.1-GA [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.msgpack#msgpack;0.6.7->org.javassist#javassist;3.16.1-GA [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fluentd#fluent-logger;0.2.10->org.msgpack#msgpack;0.6.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.fluentd#fluent-logger;0.2.10->org.msgpack#msgpack;0.6.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.msgpack#msgpack;0.6.7->com.googlecode.json-simple#json-simple;1.1.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.msgpack#msgpack;0.6.7->com.googlecode.json-simple#json-simple;1.1.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.googlecode.json-simple#json-simple;1.1.1->junit#junit;4.10 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.googlecode.json-simple#json-simple;1.1.1->junit#junit;4.10 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies junit#junit;4.10->org.hamcrest#hamcrest-core;1.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies junit#junit;4.10->org.hamcrest#hamcrest-core;1.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.msgpack#msgpack;0.6.7->org.javassist#javassist;3.16.1-GA [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.msgpack#msgpack;0.6.7->org.javassist#javassist;3.16.1-GA [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies core#core_2.10;0.1-SNAPSHOT->org.fluentd#fluent-logger;0.2.10 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for core#core_2.10;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for core#core_2.10;0.1-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'plugin'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for core#core_2.10;0.1-SNAPSHOT [plugin][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'sources'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for core#core_2.10;0.1-SNAPSHOT [sources][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'docs'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for core#core_2.10;0.1-SNAPSHOT [docs][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'pom'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for core#core_2.10;0.1-SNAPSHOT [pom][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'scala-tool'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for core#core_2.10;0.1-SNAPSHOT [scala-tool][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies core#core_2.10;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.3 [scala-tool->default][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-compiler;2.10.3 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.10.3 {scala-tool=[default, optional(default)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.10.3[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-compiler;2.10.3[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-compiler;2.10.3 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies core#core_2.10;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.3 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies core#core_2.10;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.3 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-library;2.10.3 [compile->default][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-library;2.10.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-library;2.10.3 [compile->optional(default)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-reflect;2.10.3 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.10.3 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.10.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.10.3[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-reflect;2.10.3[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-reflect;2.10.3 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m	[2.10.3] org.scala-lang#scala-reflect;2.10.3[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-reflect;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.3->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.3->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-reflect;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-reflect;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.3->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.3->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies core#core_2.10;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.3 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies core#core_2.10;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.3 [scala-tool->optional(default)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#jline;2.10.3 [optional->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#jline;2.10.3 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#jline;2.10.3 {optional=[compile(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#jline;2.10.3[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#jline;2.10.3[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#jline;2.10.3 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#jline;2.10.3 [optional->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#jline;2.10.3->org.fusesource.jansi#jansi;1.4 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.fusesource.jansi#jansi;1.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.fusesource.jansi#jansi;1.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.fusesource.jansi#jansi;1.4[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.fusesource.jansi#jansi;1.4[0m
+[0m[[0mdebug[0m] [0m	found org.fusesource.jansi#jansi;1.4 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#jline;2.10.3->org.fusesource.jansi#jansi;1.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies core#core_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [scala-tool->default][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies core#core_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies core#core_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies core#core_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies core#core_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [scala-tool->optional(default)][0m
+[0m[[0mdebug[0m] [0m	resolved ivy file produced in /Users/june/Documents/scala/sbt_skelton/core/target/resolution-cache/core/core_2.10/0.1-SNAPSHOT/resolved.xml.xml[0m
+[0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.10.3!scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fluentd#fluent-logger;0.2.10!fluent-logger.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.msgpack#msgpack;0.6.7!msgpack.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.googlecode.json-simple#json-simple;1.1.1!json-simple.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.javassist#javassist;3.16.1-GA!javassist.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] junit#junit;4.10!junit.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.hamcrest#hamcrest-core;1.1!hamcrest-core.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.3!scala-compiler.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.3!scala-reflect.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.3!jline.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 390ms :: artifacts dl 25ms[0m
+[0m[[0mdebug[0m] [0m	report for core#core_2.10;0.1-SNAPSHOT compile produced in /Users/june/Documents/scala/sbt_skelton/core/target/resolution-cache/reports/core-core_2.10-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for core#core_2.10;0.1-SNAPSHOT runtime produced in /Users/june/Documents/scala/sbt_skelton/core/target/resolution-cache/reports/core-core_2.10-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for core#core_2.10;0.1-SNAPSHOT test produced in /Users/june/Documents/scala/sbt_skelton/core/target/resolution-cache/reports/core-core_2.10-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for core#core_2.10;0.1-SNAPSHOT provided produced in /Users/june/Documents/scala/sbt_skelton/core/target/resolution-cache/reports/core-core_2.10-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for core#core_2.10;0.1-SNAPSHOT optional produced in /Users/june/Documents/scala/sbt_skelton/core/target/resolution-cache/reports/core-core_2.10-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for core#core_2.10;0.1-SNAPSHOT compile-internal produced in /Users/june/Documents/scala/sbt_skelton/core/target/resolution-cache/reports/core-core_2.10-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for core#core_2.10;0.1-SNAPSHOT runtime-internal produced in /Users/june/Documents/scala/sbt_skelton/core/target/resolution-cache/reports/core-core_2.10-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for core#core_2.10;0.1-SNAPSHOT test-internal produced in /Users/june/Documents/scala/sbt_skelton/core/target/resolution-cache/reports/core-core_2.10-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for core#core_2.10;0.1-SNAPSHOT plugin produced in /Users/june/Documents/scala/sbt_skelton/core/target/resolution-cache/reports/core-core_2.10-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for core#core_2.10;0.1-SNAPSHOT sources produced in /Users/june/Documents/scala/sbt_skelton/core/target/resolution-cache/reports/core-core_2.10-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for core#core_2.10;0.1-SNAPSHOT docs produced in /Users/june/Documents/scala/sbt_skelton/core/target/resolution-cache/reports/core-core_2.10-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for core#core_2.10;0.1-SNAPSHOT pom produced in /Users/june/Documents/scala/sbt_skelton/core/target/resolution-cache/reports/core-core_2.10-pom.xml[0m
+[0m[[0mdebug[0m] [0m	report for core#core_2.10;0.1-SNAPSHOT scala-tool produced in /Users/june/Documents/scala/sbt_skelton/core/target/resolution-cache/reports/core-core_2.10-scala-tool.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (390ms resolve - 25ms download)[0m
+[0m[[0minfo[0m] [0mDone updating.[0m
