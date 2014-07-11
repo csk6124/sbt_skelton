@@ -23,11 +23,12 @@ Maven에 비해서 빌드 스크립트 코딩이 간단함.
 스칼라 언어로 빌드가능함.
 
 # SBT Requirements Install
-'''
+
+```
 1. JVM 1.5 over
 2. brew install scala
 3. brew install sbt
-'''
+```
 
 # Sbt기반 프로젝트 만들자.
 
@@ -78,6 +79,7 @@ libraryDependencies += groupID % artifactID % revision
 * Sharing settings
 다른 프로젝트사이의 세팅을 재사용을 쉽게 할수있는 방법? ThisBuild scope를 만들어서 globlly하게 적용한다. 
 아래와 같이 root 프로젝트에서 설정하면 그하위 프로젝트 또한 적용된다. 
+
 ```
 calaVersion in ThisBuild := "2.10.0"
 ```
@@ -89,6 +91,7 @@ calaVersion in ThisBuild := "2.10.0"
 ```
 aggregate in update := false
 ```
+
 
 * Classpath dependencies
 dependsOn 메소드 call을  통해서 dependency를 처리한다. 
@@ -118,18 +121,27 @@ object MyBuild extends Build {
 object - scala singleton class 
 lazy val - 변수정의는 처음 사용될때 처리된다.
 디렉토리 모듈명시하는 방법 : project.in(file(“...”)) 이와 같이 작성한다. 
+```
 
-# Sbt 옵션
 
 # SBT Settings
+SBT 세팅 프로젝트는 3개의 파트로 이루어졌다.
+
+* scope
+* name
+* value
+
+SettingKey[T] trait 를 통해서 API를 제공해주고 있음.
 
 # SBT Scope
 scope axes에는 3가지가 있다.
+
 * Projects
 * Configurations
 * Tasks
 
 # SBT Keys
+scope안에 세팅값으로 저장되는 값이다. AttributeKey[T]
 
 
 
