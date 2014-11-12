@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="SBT: org.testng:testng:6.8.8">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.testng/testng/jars/testng-6.8.8.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

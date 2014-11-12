@@ -7,3 +7,7 @@ addSbtPlugin("org.xerial.sbt" % "sbt-pack" % "0.5.1")
 addSbtPlugin("com.typesafe.sbt" % "sbt-scalariform" % "1.2.1")
 
 addSbtPlugin("org.ensime" % "ensime-sbt-cmd" % "0.1.2")
+
+addSbtPlugin("com.github.mpeltonen" % "sbt-idea" % "1.6.0")
+
+addSbtPlugin("com.typesafe.sbteclipse" % "sbteclipse-plugin" % "2.5.0")
