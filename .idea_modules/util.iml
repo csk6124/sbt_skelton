@@ -29,9 +29,9 @@
       <sourceFolder url="file://$MODULE_DIR$/../util/target/scala-2.10/resource_managed/test" type="java-test-resource" />
       <excludeFolder url="file://$MODULE_DIR$/../util/target" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="1.7" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="SBT: org.scala-lang:scala-library:2.10.4" level="project" />
+    <orderEntry type="library" exported="" name="SBT: org.scala-lang:scala-library:2.10.4" level="project" />
   </component>
 </module>
 

@@ -13,6 +13,7 @@ import java.util.concurrent.TimeUnit
 object Hello {
 
   def test() = {
+
     System.setProperty("webdriver.chrome.driver", "/Users/june/workspace/sbt_skelton/drivers/chromedriver")
     val capabilities:DesiredCapabilities = DesiredCapabilities.chrome()
 
@@ -25,19 +26,21 @@ object Hello {
     chrome.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS)
     chrome.get(baseUrl + "/")
     val wait:WebDriverWait = new WebDriverWait(chrome, 10000)
-    wait.withMessage("Your desired Message")
+    //wait.withMessage("Your desired Message")
 
-    val alert:Alert = {
-      wait.until(ExpectedConditions.visibilityOf(chrome.findElement(By.id("query")))).clear()
-    }
-    alert.accept()
+
+    wait.until(ExpectedConditions.visibilityOf(chrome.findElement(By.id("query")))).clear()
     wait.until(ExpectedConditions.visibilityOf(chrome.findElement(By.id("query")))).sendKeys("바보")
 
     wait.until(ExpectedConditions.visibilityOf(chrome.findElement(By.id("search_btn")))).click()
 
     wait.until(ExpectedConditions.visibilityOf(chrome.findElement(By.cssSelector("a.sh_movie_link > strong")))).click()
+    chrome.get("http://daum.net")
+    wait.until(ExpectedConditions.visibilityOf(chrome.findElement(By.id("query")))).clear()
+    wait.until(ExpectedConditions.visibilityOf(chrome.findElement(By.id("query")))).sendKeys("고기")
 
     chrome.close()
+
   }
 
   def main(args: Array[String]) {

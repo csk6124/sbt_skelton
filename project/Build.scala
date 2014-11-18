@@ -13,6 +13,7 @@ object MyBuild extends Build {
             libraryDependencies += "org.controlsfx" % "openjfx-dialogs" % "1.0.2",
             libraryDependencies += "org.seleniumhq.selenium" % "selenium-java" % "2.42.2",
             libraryDependencies += "org.testng" % "testng" % "6.8.8"
+            //unmanagedBase := baseDirectory.value / "libs"
        )
        .aggregate(core, util)
 
